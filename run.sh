@@ -25,13 +25,13 @@ if [ $step -le 0 ]; then
     echo "Start to simulate data."
     
     cd ./simulation
-    wsj0root='/media/clx214/data/wsj/' #YOUR_PATH
-    output_dir='/media/clx214/data/wsj0_2mix_extr_tmp/wav8k' #OUTPUT_PATH to save simulated data
+    wsj0root='./data/wsj/' #YOUR_PATH
+    output_dir='./data/wsj0_2mix_extr/wav8k' #OUTPUT_PATH to save simulated data
     fs8k=8000
     min_max='max'
 
     for data_type in tr cv tt; do
-        matlab -nodesktop -nosplash -r "addpath('/media/clx214/ssd2/Projects/tfextraction/simulation/voicebox'); simulate_2spk_mix('$data_type', '$wsj0root', '$output_dir', $fs8k, '$min_max'); exit;" &
+        matlab -nodesktop -nosplash -r "addpath('./voicebox'); simulate_2spk_mix('$data_type', '$wsj0root', '$output_dir', $fs8k, '$min_max'); exit;" &
     done
     wait
 
