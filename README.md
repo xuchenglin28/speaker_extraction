@@ -7,7 +7,7 @@ Please cite:
 
 Folder:
 
-1. simulation
+1. simulation: 
    code to generate a 2-speaker mixed database for target speaker extraction.
-2. verification
+2. verification: 
    key files of simulated trials for multi-talker speaker verification system.
