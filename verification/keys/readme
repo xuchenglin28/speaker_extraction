@@ -1,0 +1,9 @@
+# Copyright 2018, Wei Rao
+
+Please cite:
+    Wei Rao, Chenglin Xu, Eng Siong Chng, and Haizhou Li, "Target Speaker Extraction for Overlapped Multi-Talker Speaker Verification", submitted to ICASSP 2019.
+
+In the paper,
+1. the EER for Test on Clean use the trials under clean_set/trials
+2. the EER for Test on Mixture use the trials under mixture_set/trials
+3. The EER for Test on Mixture with Target Speaker Extraction Module use the trials under mixture_set/trials, for each trial, the enroll and test data are sent to speaker extraction, then the extracted speech is used as test wav for speaker verification together with the enroll wav.
