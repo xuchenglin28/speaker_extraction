@@ -32,7 +32,7 @@ After given the path to the noisy_dir, you can just run the code to extract feat
 
    run.sh
    
-### If you want to repeat the results in the published paper, you need to set the dur=0 in run.sh. Because variant utterances are used without fix the duration of the utterances.
+### If you want to repeat the results in the published paper, you need to set the dur=0 in run.sh. Because variant utterances are used without fixing the duration of the utterances.
 
 ## Speaker Verification: 
 
