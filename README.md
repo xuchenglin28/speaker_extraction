@@ -31,6 +31,8 @@ noisy_dir: the folder where your simulated data is. For example, "data/wsj0_2mix
 After given the path to the noisy_dir, you can just run the code to extract feature, train model, and do run-time inference.
 
    run.sh
+   
+### If you want to repeat the results in the published paper, you need to set the dur=0 in run.sh. Because variant utterances are used without fix the duration of the utterances.
 
 ## Speaker Verification: 
 
