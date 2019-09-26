@@ -49,3 +49,7 @@ Tensorflow: 1.12 (some API are older version, but compatiable by 1.12)
 ## Contact
 
 e-mail: xuchenglin28@gmail.com
+
+## Licence
+
+The code and models in this repository are licensed under the GNU General Public License Version 3. For commercial use of this code and models, separate commercial licensing is also available. Please contact: Chenglin Xu (xuchenglin28@gmail.com)
