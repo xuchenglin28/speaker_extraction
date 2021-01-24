@@ -10,7 +10,7 @@ Please cite:
 
  1) Chenglin Xu, Wei Rao, Xiong Xiao, Eng Siong Chng and Haizhou Li, "SINGLE CHANNEL SPEECH SEPARATION WITH CONSTRAINED UTTERANCE LEVEL PERMUTATION INVARIANT TRAINING USING GRID LSTM", in Proc. of ICASSP 2018, pp 6-10.
  2) Chenglin Xu, Wei Rao, Eng Siong Chng, and Haizhou Li, "Optimization of Speaker Extraction Neural Network with Magnitude and Temporal Spectrum Approximation Loss", in Proc. of ICASSP 2019, pp 6990-6994.
- 3) Wei Rao, Chenglin Xu, Eng Siong Chng, and Haizhou Li, "Target Speaker Extraction for Overlapped Multi-Talker Speaker Verification", in Proc. of Interspeech 2019.
+ 3) Wei Rao, Chenglin Xu, Eng Siong Chng, and Haizhou Li, "Target Speaker Extraction for Multi-Talker Speaker Verification", in Proc. of Interspeech 2019, pp.1273-1277.
 
 ## Data Generation:
 
@@ -52,4 +52,30 @@ e-mail: xuchenglin28@gmail.com
 
 ## Licence
 
-The code and models in this repository are licensed under the GNU General Public License Version 3. For commercial use of this code and models, separate commercial licensing is also available. Please contact: Chenglin Xu (xuchenglin28@gmail.com)
+The code and models in this repository are licensed under the GNU General Public License Version 3.
+
+## Citation
+If you would like to cite, use this :
+```BibTex
+@inproceedings{xu2018single,
+  title={Single channel speech separation with constrained utterance level permutation invariant training using grid lstm},
+  author={Xu, Chenglin and Rao, Wei and Xiao, Xiong and Chng, Eng Siong and Li, Haizhou},
+  booktitle={IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)},
+  pages={6--10},
+  year={2018}
+}
+@inproceedings{xu2019optimization,
+  title={Optimization of speaker extraction neural network with magnitude and temporal spectrum approximation loss},
+  author={Xu, Chenglin and Rao, Wei and Chng, Eng Siong and Li, Haizhou},
+  booktitle={IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)},
+  pages={6990--6994},
+  year={2019}
+}
+@inproceedings{rao2019target,
+  title={Target speaker extraction for multi-talker speaker verification},
+  author={Rao, Wei and Xu, Chenglin and Chng, Eng Siong and Li, Haizhou},
+  booktitle={Proc. Of INTERSPEECH},
+  pages={1273--1277},
+  year={2019}
+}
+```
